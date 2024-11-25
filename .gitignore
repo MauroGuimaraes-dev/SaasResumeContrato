@@ -1,0 +1,118 @@
+# Ambiente virtual Python
+venv/
+env/
+ENV/
+
+# Arquivos de ambiente e configuração
+.env
+*.env
+.env.*
+
+# Arquivos de cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
+# Distribuição / empacotamento
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+logs/
+log/
+
+# Arquivos de banco de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos de mídia e documentos
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+
+# Arquivos específicos do projeto
+temp_*
+uploads/
+downloads/
+vector_store/
+*.pkl
+*.bin
+*.h5
+*.pt
+*.pth
+
+# Arquivos de teste
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+
+# Adicionar sugestões adicionais ao .gitignore
+
+# Arquivos de configuração do sistema
+*.swp
+*.swo
+
+# Arquivos de backup
+*~
+*.bak
+*.tmp
+
+# Arquivos de compilação
+*.out
+*.o
+*.obj
+*.exe
+
+# Arquivos de mídia temporários
+*.mp4
+*.avi
+*.mov
+*.wmv
+
+# Arquivos de imagem
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
