@@ -1,21 +1,9 @@
-# Ambiente virtual Python
-venv/
-env/
-ENV/
-
-# Arquivos de ambiente e configuração
-.env
-*.env
-.env.*
-
-# Arquivos de cache Python
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-.Python
 *.so
-
-# Distribuição / empacotamento
+.Python
 build/
 develop-eggs/
 dist/
@@ -32,87 +20,77 @@ wheels/
 .installed.cfg
 *.egg
 
-# PyCharm
-.idea/
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
 
-# VS Code
+# IDEs and Editors
+.idea/
 .vscode/
-*.code-workspace
+*.swp
+*.swo
+*~
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb_checkpoints/
 *.ipynb
 
-# Arquivos temporários do sistema
-.DS_Store
-Thumbs.db
+# Distribution / packaging
+.Python
+*.manifest
+*.spec
 
-# Arquivos de log
-*.log
-logs/
-log/
-
-# Arquivos de banco de dados
-*.db
-*.sqlite
-*.sqlite3
-
-# Arquivos de mídia e documentos
-*.pdf
-*.doc
-*.docx
-*.ppt
-*.pptx
-*.xls
-*.xlsx
-
-# Arquivos específicos do projeto
-temp_*
-uploads/
-downloads/
-vector_store/
-*.pkl
-*.bin
-*.h5
-*.pt
-*.pth
-
-# Arquivos de teste
-.coverage
+# Unit test / coverage reports
 htmlcov/
-.pytest_cache/
 .tox/
-.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
 coverage.xml
 *.cover
-*.py,cover
+.hypothesis/
 
-# Adicionar sugestões adicionais ao .gitignore
+# Machine Learning specific
+*.h5
+*.pkl
+*.model
+*.joblib
+data/
+datasets/
+raw_data/
+processed_data/
+saved_models/
+checkpoints/
+trained_models/
 
-# Arquivos de configuração do sistema
-*.swp
-*.swo
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+logs/
+*.db
 
-# Arquivos de backup
-*~
-*.bak
-*.tmp
+# Environment variables and secrets
+.env
+.env.*
+*.env
+config.ini
+credentials.json
+secrets.yaml
+secret.yml
 
-# Arquivos de compilação
-*.out
-*.o
-*.obj
-*.exe
-
-# Arquivos de mídia temporários
-*.mp4
-*.avi
-*.mov
-*.wmv
-
-# Arquivos de imagem
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.bmp
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
